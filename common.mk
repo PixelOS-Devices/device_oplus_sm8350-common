@@ -176,6 +176,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
     dalvik.vm.image-dex2oat-threads=8
 
+# Dolby
+PRODUCT_PACKAGES += \
+    OplusDolby
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
