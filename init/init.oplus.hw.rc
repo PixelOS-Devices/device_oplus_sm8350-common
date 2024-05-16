@@ -36,3 +36,10 @@ on property:ro.boot.prjname=20820
 
 on property:ro.boot.prjname=20821
     setprop ro.boot.hardware.revision "IN"
+
+# ziti
+on property:ro.boot.prjname=22867
+    setprop ro.boot.hardware.revision "IN"
+
+on property:ro.boot.prjname=22813
+    setprop ro.boot.hardware.revision "CN"
