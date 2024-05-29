@@ -1,2 +1,5 @@
 # Init
 /vendor/bin/init.lahaina.post_boot.sh          u:object_r:vendor_qti_init_shell_exec:s0
+
+# Power
+/vendor/bin/hw/android\.hardware\.power-service\.pixel-libperfmgr                 u:object_r:hal_power_default_exec:s0
