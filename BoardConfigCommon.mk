@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+TARGET_KERNEL_CLANG_VERSION := r487747c
+
 COMMON_PATH := device/oneplus/sm8350-common
 
 # A/B
