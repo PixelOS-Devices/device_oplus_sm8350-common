@@ -509,3 +509,5 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8350-common/sm8350-common-vendor.mk)
+# Sign Keys
+-include vendor/lineage-priv/keys/keys.mk
